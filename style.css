@@ -405,6 +405,26 @@ h1, h2, h3, h4, h5 {
   gap: 20px;
 }
 
+.hero-highlights {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.25rem;
+}
+
+.hero-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.6rem 0.95rem;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--color-dark);
+  font-size: 0.9rem;
+  letter-spacing: 0.04em;
+}
+
 @media (max-width: 768px) {
   .hero-section {
     padding: 40px 20px;
