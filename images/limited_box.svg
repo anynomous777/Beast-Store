@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img" aria-label="Limited release box icon">
+  <rect width="320" height="220" rx="24" fill="#111"/>
+  <path d="M50 60h220v100H50z" fill="#1E1E1E" stroke="#E63946" stroke-width="8"/>
+  <path d="M50 60l110 60 110-60" fill="none" stroke="#FFFFFF" stroke-width="8"/>
+  <path d="M50 160l110-60 110 60" fill="none" stroke="#FFFFFF" stroke-width="8"/>
+  <text x="160" y="136" fill="#E63946" font-family="Cinzel, serif" font-size="24" font-weight="700" text-anchor="middle">LIMITED</text>
+</svg>

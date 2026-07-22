@@ -9,7 +9,7 @@ const PRODUCTS = [
     id: "prod-candle",
     category: "aromatics",
     name: "Beast Alpha Recover Candle",
-    price: 3500,
+    price: 2500,
     image: "images/candle.png",
     rating: 4.9,
     reviews: 48,
@@ -25,7 +25,7 @@ const PRODUCTS = [
     id: "prod-mug",
     category: "tableware",
     name: "Beast Iron Grip Mug",
-    price: 4500,
+    price: 2800,
     image: "images/mug.png",
     rating: 4.8,
     reviews: 32,
@@ -41,7 +41,7 @@ const PRODUCTS = [
     id: "prod-journal",
     category: "stationery",
     name: "Beast Workout Training Journal",
-    price: 3000,
+    price: 2200,
     image: "images/journal.png",
     rating: 4.7,
     reviews: 19,
@@ -57,7 +57,7 @@ const PRODUCTS = [
     id: "prod-tray",
     category: "aromatics",
     name: "Beast Travertine Gear Valet",
-    price: 5500,
+    price: 3500,
     image: "images/tray.png",
     rating: 4.9,
     reviews: 26,
@@ -73,7 +73,7 @@ const PRODUCTS = [
     id: "prod-hoodie",
     category: "streetwear",
     name: "Beast Heavyweight Gym Hoodie",
-    price: 8500,
+    price: 6500,
     image: "images/hoodie.png",
     rating: 4.9,
     reviews: 72,
@@ -89,7 +89,7 @@ const PRODUCTS = [
     id: "prod-kettlebell",
     category: "gear",
     name: "Beast Hand-Forged Kettlebell",
-    price: 12000,
+    price: 9200,
     image: "images/kettlebell.png",
     rating: 5.0,
     reviews: 14,
@@ -105,7 +105,7 @@ const PRODUCTS = [
     id: "prod-gym-belt",
     category: "gear",
     name: "Beast Leather Lifting Belt",
-    price: 9500,
+    price: 7200,
     image: "images/gym_belt.png",
     rating: 4.8,
     reviews: 29,
@@ -121,7 +121,7 @@ const PRODUCTS = [
     id: "prod-titanium-flask",
     category: "tableware",
     name: "Beast Titanium Flask",
-    price: 6800,
+    price: 5400,
     image: "images/titanium_flask.png",
     rating: 4.9,
     reviews: 22,
@@ -131,6 +131,219 @@ const PRODUCTS = [
       "Capacity": "500 ml (18 oz)",
       "Weight": "150 grams",
       "Origin": "Forged in Solukhumbu, Nepal"
+    }
+  },
+  {
+    id: "prod-training-towel",
+    category: "gear",
+    badge: "Limited",
+    name: "Beast Training Towel",
+    price: 1800,
+    image: "images/training_towel.svg",
+    rating: 4.7,
+    reviews: 21,
+    description: "A fast-dry microfiber towel designed for intense training sessions and quick recovery sweats.",
+    specs: {
+      "Material": "Microfiber",
+      "Dimensions": "30\" x 60\"",
+      "Care": "Machine wash cold",
+      "Origin": "Made in Nepal"
+    }
+  },
+  {
+    id: "prod-gym-towel",
+    category: "gear",
+    badge: "New",
+    name: "Beast Gym Towel",
+    price: 1750,
+    image: "images/training_towel.svg",
+    rating: 4.6,
+    reviews: 17,
+    description: "Soft, absorbent towel built for gym floor use and quick sweat cleanup.",
+    specs: {
+      "Material": "Quick-dry microfiber",
+      "Dimensions": "28\" x 55\"",
+      "Care": "Machine wash cold",
+      "Origin": "Made in Nepal"
+    }
+  },
+  {
+    id: "prod-recovery-towel",
+    category: "gear",
+    badge: "Popular",
+    name: "Beast Recovery Towel",
+    price: 1900,
+    image: "images/training_towel.svg",
+    rating: 4.8,
+    reviews: 19,
+    description: "A premium recovery towel with reinforced edges for durability after every workout.",
+    specs: {
+      "Material": "Ultra soft microfiber",
+      "Dimensions": "32\" x 58\"",
+      "Care": "Machine wash cold",
+      "Origin": "Made in Nepal"
+    }
+  },
+  {
+    id: "prod-training-socks",
+    category: "streetwear",
+    badge: "Beast",
+    name: "Beast Grip Training Socks",
+    price: 1600,
+    image: "images/streetwear_shirt.svg",
+    rating: 4.6,
+    reviews: 18,
+    description: "Non-slip crew socks with reinforced arch support, perfect for gym floor work and everyday wear.",
+    specs: {
+      "Material": "Bamboo cotton blend",
+      "Grip": "Silicone outsole",
+      "Care": "Machine wash cold",
+      "Origin": "Made in Nepal"
+    }
+  },
+  {
+    id: "prod-limited-box",
+    category: "limited",
+    badge: "Limited",
+    name: "Beast Limited Release Box",
+    price: 11500,
+    image: "images/limited_box.svg",
+    rating: 5.0,
+    reviews: 6,
+    description: "Curated limited-edition set with a towel, training socks, and a premium recovery balm—all branded Beast.",
+    specs: {
+      "Includes": "Training towel, grip socks, muscle balm",
+      "Packaging": "Custom black kraft gift box",
+      "Availability": "Limited run",
+      "Origin": "Made in Nepal"
+    }
+  },
+  {
+    id: "prod-band-set",
+    category: "gear",
+    name: "Beast Resistance Band Set",
+    price: 2100,
+    image: "images/tray.png",
+    rating: 4.8,
+    reviews: 28,
+    description: "Three tension bands for warmups, mobility work, and strength training at home or in the gym.",
+    specs: {
+      "Material": "Natural latex",
+      "Set Includes": "Light, Medium, Heavy",
+      "Dimensions": "12\" x 1.5\" each",
+      "Origin": "Made in Nepal"
+    }
+  },
+  {
+    id: "prod-muscle-balm",
+    category: "aromatics",
+    name: "Beast Cooling Muscle Balm",
+    price: 2200,
+    image: "images/candle.png",
+    rating: 4.9,
+    reviews: 34,
+    description: "Herbal cooling balm for aches, stiffness, and active recovery after tough workouts.",
+    specs: {
+      "Material": "Menthol, arnica, camphor",
+      "Size": "60 ml",
+      "Use": "Apply to sore muscles",
+      "Origin": "Made in Nepal"
+    }
+  },
+  {
+    id: "prod-pocket-notebook",
+    category: "stationery",
+    name: "Beast Pocket Training Notes",
+    price: 1400,
+    image: "images/stationery_set.svg",
+    rating: 4.5,
+    reviews: 20,
+    description: "Mini rugged notebook for quick workout logs, gym notes, and daily targets.",
+    specs: {
+      "Material": "Recycled paper",
+      "Size": "3.5\" x 5.5\"",
+      "Pages": "80 lined pages",
+      "Origin": "Made in Nepal"
+    }
+  },
+  {
+    id: "prod-water-flask",
+    category: "tableware",
+    name: "Beast Insulated Water Flask",
+    price: 2600,
+    image: "images/titanium_flask.png",
+    rating: 4.7,
+    reviews: 27,
+    description: "Compact vacuum flask built for cold hydration during long sessions.",
+    specs: {
+      "Material": "Stainless steel",
+      "Capacity": "350 ml",
+      "Finish": "Satin matte",
+      "Origin": "Made in Nepal"
+    }
+  },
+  {
+    id: "prod-wrist-wraps",
+    category: "gear",
+    name: "Beast Leather Wrist Wraps",
+    price: 2300,
+    image: "images/gym_belt.png",
+    rating: 4.8,
+    reviews: 25,
+    description: "Supportive leather wraps for heavy pressing and stable lifts.",
+    specs: {
+      "Material": "Vegetable-tanned leather",
+      "Length": "18 inches",
+      "Closure": "Velcro",
+      "Origin": "Made in Nepal"
+    }
+  },
+  {
+    id: "prod-stone-plate",
+    category: "tableware",
+    name: "Beast Stone Serving Plate",
+    price: 3200,
+    image: "images/tray.png",
+    rating: 4.6,
+    reviews: 14,
+    description: "Hand-finished stoneware plate for gym kitchen styling and tabletop service.",
+    specs: {
+      "Material": "Handmade stoneware",
+      "Dimensions": "10\" diameter",
+      "Finish": "Matte glaze",
+      "Origin": "Made in Nepal"
+    }
+  },
+  {
+    id: "prod-carry-pouch",
+    category: "gear",
+    name: "Beast Carry Pouch",
+    price: 1900,
+    image: "images/mug.png",
+    rating: 4.6,
+    reviews: 16,
+    description: "Compact carry pouch for small accessories, keys, and training essentials.",
+    specs: {
+      "Material": "Waxed canvas",
+      "Dimensions": "9\" x 5\" x 3\"",
+      "Closure": "Zipper",
+      "Origin": "Made in Nepal"
+    }
+  },
+  {
+    id: "prod-charcoal-soap",
+    category: "aromatics",
+    name: "Beast Charcoal Soap Bar",
+    price: 1500,
+    image: "images/candle.png",
+    rating: 4.5,
+    reviews: 12,
+    description: "Detoxifying charcoal soap that refreshes skin after heavy workouts.",
+    specs: {
+      "Material": "Activated charcoal, palm oil",
+      "Weight": "120 g",
+      "Use": "Daily body wash",
+      "Origin": "Made in Nepal"
     }
   }
 ];
@@ -258,6 +471,7 @@ function renderProducts() {
         <div class="product-quick-view" onclick="triggerQuickView('${product.id}')">Quick View</div>
       </div>
       <div class="product-info-wrap">
+        ${product.badge ? `<span class="product-badge">${product.badge}</span>` : ``}
         <span class="product-cat">${product.category}</span>
         <h3 class="product-card-title">${product.name}</h3>
         <div class="product-card-meta">
@@ -1088,10 +1302,11 @@ function renderCart() {
         <span class="cart-item-price">${formatPrice(item.product.price)}</span>
         
         <div class="cart-item-actions">
-          <div class="quantity-selector">
-            <button class="qty-btn" onclick="adjustCartQty('${item.product.id}', -1)" aria-label="Decrease quantity">−</button>
-            <input type="number" id="qty-input" value="${item.quantity}" readonly>
-            <button class="qty-btn" onclick="adjustCartQty('${item.product.id}', 1)" aria-label="Increase quantity">+</button>
+          <div class="quantity-selector cart-quantity-visible">
+            <span class="qty-label">Qty</span>
+            <button type="button" class="qty-btn" onclick="adjustCartQty('${item.product.id}', -1)" aria-label="Decrease quantity">−</button>
+            <input type="number" class="cart-qty-input" value="${item.quantity}" readonly aria-label="Product quantity">
+            <button type="button" class="qty-btn" onclick="adjustCartQty('${item.product.id}', 1)" aria-label="Increase quantity">+</button>
           </div>
           <span class="cart-item-remove" onclick="removeCartItem('${item.product.id}')">Remove</span>
         </div>
